@@ -41,6 +41,10 @@ onClick(() => {
     gwiazda.moveTo(mousePos(0,0))
 })
 
+onTouchStart(()=>{
+    play("muzyczka", {"volume": 0.1})
+})
+
 onUpdate(()=>{
 
     if( gwiazda.pos.x < 300) gwiazda.pos.x += 1
