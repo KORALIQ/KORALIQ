@@ -41,7 +41,7 @@ onClick(() => {
     gwiazda.moveTo(mousePos(0,0))
 })
 
-onTouchStart(()=>{
+onTouchStart((x,y)=>{
     play("muzyczka", {"volume": 0.1})
 })
 
